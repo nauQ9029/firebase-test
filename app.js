@@ -10,6 +10,10 @@ const registrationRoutes = require("./routes/registrationRoutes");
 
 const app = express();
 
+app.get("/", (req, res) => {
+  res.redirect("/login");
+});
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");

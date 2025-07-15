@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "student-event-management-9029",
+    "development": "student-event-management-9029"
+  },
+  "targets": {},
+  "etags": {}
+}
